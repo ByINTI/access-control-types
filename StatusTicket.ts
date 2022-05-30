@@ -19,5 +19,6 @@ export interface Request {
 }
 
 export interface Response {
-    [key: string]: TicketStatus;
+    lastId: number;
+    tickets: { [key: string]: TicketStatus };
 };
