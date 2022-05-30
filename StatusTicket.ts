@@ -4,12 +4,12 @@ export enum STATUS_TICKET {
     CANCELED =  'canceled',
 }
 
-interface TicketStatus {
+export interface TicketStatus {
     id: number;
-    validator_code: string;
-    device_name?: string;
+    validatorCode: string;
+    deviceName?: string;
     state: STATUS_TICKET;
-    created_at: string | Date;
+    createdAt: string | Date;
 }
 
 export interface Request {
