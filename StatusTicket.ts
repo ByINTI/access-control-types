@@ -20,6 +20,6 @@ export interface Request {
 
 export interface Response {
     lastId: string;
-    ticketsQty: string;
+    ticketsQty: number;
     tickets: { [key: string]: TicketStatus };
 };
