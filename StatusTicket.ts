@@ -10,6 +10,10 @@ export interface TicketStatus {
     deviceName?: string;
     state: STATUS_TICKET;
     createdAt: string | Date;
+    buyerName: string;
+    gates: string[];
+    isHalfPriceTicket: boolean;
+    buyerCpf: string;
 }
 
 export interface Request {
