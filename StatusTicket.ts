@@ -1,20 +1,4 @@
-export enum STATUS_TICKET {
-    EXPECTING =  'expecting',
-    PROCESSED =  'processed',
-    CANCELED =  'canceled',
-}
-
-export interface TicketStatus {
-    id: number;
-    validatorCode: string;
-    deviceName?: string;
-    state: STATUS_TICKET;
-    createdAt: string | Date;
-    buyerName: string;
-    gates: string[];
-    isHalfPriceTicket: boolean;
-    buyerCpf: string;
-}
+import { TicketStatus } from "./models";
 
 export interface Request {
     dateId?: string | number;
