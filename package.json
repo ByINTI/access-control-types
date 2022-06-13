@@ -4,5 +4,8 @@
   "repository": "git@github.com:ByINTI/access-control-types.git",
   "author": "Arlan Dantas <arlan@byinti.com>",
   "types": "index.d.ts",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "typescript": "^4.7.3"
+  }
 }
