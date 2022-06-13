@@ -10,6 +10,6 @@
     "typescript": "^4.7.3"
   },
   "scripts": {
-    "prepublish": "tsc"
+    "postInstall": "tsc --build"
   }
 }
