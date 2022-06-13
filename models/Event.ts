@@ -1,3 +1,5 @@
+import { EventDate, Gate } from "./";
+
 export enum EVENT_STATE {
   STATUS_REGISTER = 'Registrado',
   STATUS_PUBLISHED = 'Publicado',
@@ -16,4 +18,7 @@ export default interface Event {
   created_at: string | Date;
   updated_at: string | Date;
   deleted_at: string | null | Date;
+
+  eventDates?: EventDate[];
+  gates?: Gate[];
 }
