@@ -1,3 +1,5 @@
+import { Event } from "./models";
+
 export interface Request {
     entityCode: string;
 }
