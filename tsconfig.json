@@ -9,8 +9,9 @@
     "moduleResolution": "node",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "outDir": ".build",
+    "outDir": "dist",
     "sourceMap": true,
+    "declaration": true,
     "target": "esnext"
   },
   "include": [

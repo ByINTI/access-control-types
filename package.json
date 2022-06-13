@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "repository": "git@github.com:ByINTI/access-control-types.git",
   "author": "Arlan Dantas <arlan@byinti.com>",
-  "types": "index.d.ts",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
   "type": "commonjs",
   "dependencies": {
     "typescript": "^4.7.3"
