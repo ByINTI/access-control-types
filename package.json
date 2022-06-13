@@ -6,7 +6,10 @@
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
   "type": "commonjs",
-  "dependencies": {
+  "devDependencies": {
     "typescript": "^4.7.3"
+  },
+  "scripts": {
+    "prepublish": "tsc"
   }
 }
