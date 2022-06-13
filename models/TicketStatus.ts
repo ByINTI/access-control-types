@@ -5,13 +5,9 @@ export enum STATUS_TICKET {
 }
 
 export default interface TicketStatus {
-    id: number;
-    validatorCode: string;
-    deviceName?: string;
-    state: STATUS_TICKET;
-    createdAt: string | Date;
-    buyerName: string;
-    gates: string[];
-    isHalfPriceTicket: boolean;
-    buyerCpf: string;
+  id: number;
+  validator_code: string;
+  device_name?: string;
+  state: STATUS_TICKET;
+  created_at: string | Date;
 }
