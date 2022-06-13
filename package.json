@@ -10,6 +10,6 @@
     "typescript": "^4.7.3"
   },
   "scripts": {
-    "postinstall": "tsc --build"
+    "postinstall": "tsc --outDir ./dist"
   }
 }
