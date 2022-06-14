@@ -8,8 +8,5 @@
   "type": "commonjs",
   "dependencies": {
     "typescript": "~4.0.0"
-  },
-  "scripts": {
-    "postinstall": "tsc"
   }
 }
