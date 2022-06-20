@@ -17,6 +17,7 @@ export interface StatusTicketItem {
     documentNeeded: boolean;
     isHalfPriceTicket: boolean;
     buyerCpf: string;
+    priceName: string;
 }
 export interface Response {
     lastId: string;
