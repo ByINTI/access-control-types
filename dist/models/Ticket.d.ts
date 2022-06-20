@@ -6,8 +6,11 @@ export default interface Ticket {
     buyer_cpf: string;
     order_identifier: string;
     is_half_price_ticket: boolean;
+    document_needed: boolean;
     date_code: string;
     establishment_gates: string;
+    seat: string;
+    ticket_number: string;
     updated_at: string | Date;
     created_at: string | Date;
 }
