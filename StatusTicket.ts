@@ -14,6 +14,9 @@ export interface StatusTicketItem {
     createdAt: string | Date;
     buyerName: string;
     gates: string[];
+    ticketNumber: string;
+    seat: string;
+    documentNeeded: boolean;
     isHalfPriceTicket: boolean;
     buyerCpf: string;
 }
