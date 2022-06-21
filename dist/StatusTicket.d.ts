@@ -18,6 +18,7 @@ export interface StatusTicketItem {
     isHalfPriceTicket: boolean;
     buyerCpf: string;
     priceName: string;
+    maxUsage: number;
 }
 export interface Response {
     lastId: string;

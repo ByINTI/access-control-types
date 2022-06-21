@@ -11,6 +11,7 @@ export default interface Ticket {
     establishment_gates: string;
     seat: string;
     ticket_number: string;
+    max_usage: number;
     updated_at: string | Date;
     created_at: string | Date;
 }
