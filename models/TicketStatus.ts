@@ -1,6 +1,7 @@
 export enum STATUS_TICKET {
     EXPECTING =  'expecting',
     PROCESSED =  'processed',
+    FULL_PROCESSED =  'full_processed',
     CANCELED =  'canceled',
 }
 
