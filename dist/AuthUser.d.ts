@@ -6,4 +6,5 @@ export interface Request {
 export interface Response {
     name: string;
     permissions: string[];
+    token: string;
 }
