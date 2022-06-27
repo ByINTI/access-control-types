@@ -11,6 +11,7 @@ export interface Request {
     appVersion: string;
     type: string;
     name: string;
+    authentication: string;
 }
 export declare type Response = IMSDevice & {
     entityCode: string;
