@@ -1,11 +1,8 @@
 export interface IMSDevice {
-    serial: string;
     name: string;
     uuid: string;
     type: string;
     app_version: string;
-    battery: string;
-    plugged: string;
     last_communication: string;
 }
 
