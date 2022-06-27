@@ -5,7 +5,7 @@ export interface Request {
 }
 export interface Response {
     name: string;
-    permissions: string[];
+    permissions: Permissions[];
     token: string;
 }
 export declare enum Permissions {
