@@ -9,3 +9,8 @@ export interface Response {
     permissions: string[];
     token: string;
 }
+
+export enum Permissions {
+    DEVICE_NAME = "deviceName",
+    OPERATION_SETTINGS = "operationSettings"
+}
