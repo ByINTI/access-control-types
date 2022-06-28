@@ -1,6 +1,6 @@
-export enum Auth {
-    AppVersion = "x-inti-app-version",
-    Timestamp = "x-inti-timestamp",
-    Uuid = "x-inti-uuid",
-    Authentication = "x-inti-authentication",
-};
+export declare enum Auth {
+    AppVersion = "X-Inti-App-Version",
+    Timestamp = "X-Inti-Timestamp",
+    Uuid = "X-Inti-Uuid",
+    Authentication = "X-Inti-Authentication"
+}
