@@ -5,6 +5,11 @@ export enum Auth {
     Authentication = "X-Inti-Authentication"
 };
 
+export enum General {
+    EntityCode = "X-Inti-Entity-Code",
+};
+
 export default {
     Auth,
+    General,
 };

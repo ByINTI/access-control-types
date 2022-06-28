@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Auth = void 0;
+exports.General = exports.Auth = void 0;
 var Auth;
 (function (Auth) {
     Auth["AppVersion"] = "X-Inti-App-Version";
@@ -9,7 +9,13 @@ var Auth;
     Auth["Authentication"] = "X-Inti-Authentication";
 })(Auth = exports.Auth || (exports.Auth = {}));
 ;
+var General;
+(function (General) {
+    General["EntityCode"] = "X-Inti-Entity-Code";
+})(General = exports.General || (exports.General = {}));
+;
 exports.default = {
     Auth,
+    General,
 };
 //# sourceMappingURL=Headers.js.map
