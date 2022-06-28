@@ -1,9 +1,6 @@
 export interface Request {
-    entityCode: string;
     email: string;
     password: string;
-    authentication: string;
-    timestamp: number;
 }
 
 export interface Response {
