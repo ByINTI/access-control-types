@@ -7,6 +7,8 @@ export interface Request {
 }
 
 export interface Response {
+    id: number;
+    username: string;
     name: string;
     permissions: Permissions[];
     token: string;

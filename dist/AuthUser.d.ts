@@ -6,6 +6,8 @@ export interface Request {
     timestamp: number;
 }
 export interface Response {
+    id: number;
+    username: string;
     name: string;
     permissions: Permissions[];
     token: string;
