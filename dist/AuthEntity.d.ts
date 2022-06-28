@@ -12,7 +12,7 @@ export interface Request {
     type: string;
     name: string;
     authentication: string;
-    timestamp: string;
+    timestamp: number;
 }
 export declare type Response = IMSDevice & {
     entityCode: string;
