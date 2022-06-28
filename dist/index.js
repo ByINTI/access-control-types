@@ -23,8 +23,9 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.EventsAndDates = exports.StatusTicket = exports.models = void 0;
+exports.Headers = exports.EventsAndDates = exports.StatusTicket = exports.models = void 0;
 exports.models = __importStar(require("./models"));
 exports.StatusTicket = __importStar(require("./StatusTicket"));
 exports.EventsAndDates = __importStar(require("./EventsAndDates"));
+exports.Headers = __importStar(require("./Headers"));
 //# sourceMappingURL=index.js.map
