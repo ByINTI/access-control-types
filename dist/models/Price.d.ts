@@ -1,3 +1,7 @@
+export declare enum TYPES {
+    regular = "regular",
+    map = "map"
+}
 interface Price {
     id: string;
     event_code: string;
@@ -8,5 +12,6 @@ interface Price {
     order: number;
     document_needed: boolean;
     half_entry_law: boolean;
+    type: TYPES;
 }
 export default Price;
