@@ -8,6 +8,8 @@ interface Sector {
   external_id: string;
   name: string;
   order: number;
+  updated_at: string | Date;
+  created_at: string | Date;
 
   prices?: Price[];
 }

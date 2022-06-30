@@ -13,5 +13,7 @@ interface Price {
     document_needed: boolean;
     half_entry_law: boolean;
     type: TYPES;
+    updated_at: string | Date;
+    created_at: string | Date;
 }
 export default Price;
