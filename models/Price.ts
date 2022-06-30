@@ -8,9 +8,9 @@ interface Price {
   date_code: string;
   event_code: string;
   external_id: string;
-  sector_id: string;
+  sector_id: string | null;
   name: string;
-  description: string;
+  description: string | null;
   order: number;
   document_needed: boolean;
   half_entry_law: boolean;
