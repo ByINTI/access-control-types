@@ -4,6 +4,7 @@ export declare enum TYPES {
 }
 interface Price {
     id: string;
+    date_code: string;
     event_code: string;
     external_id: string;
     sector_id: string;
