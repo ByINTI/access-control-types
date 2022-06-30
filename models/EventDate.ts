@@ -1,3 +1,5 @@
+import { Price, Sector } from "./";
+
 export default interface EventDate {
   date_code: string;
   name: string;
@@ -7,4 +9,7 @@ export default interface EventDate {
   expected_audience: number;
   updated_at: string | Date;
   created_at: string | Date;
+
+  sectors?: Sector[];
+  prices?: Price[];
 }
