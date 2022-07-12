@@ -1,10 +1,10 @@
 import { Ticket } from "./";
 
 export enum STATUS_TICKET {
-    EXPECTING =  'expecting',
-    PROCESSED =  'processed',
-    FULL_PROCESSED =  'full_processed',
-    CANCELED =  'canceled',
+    EXPECTING       = 'expecting',
+    PROCESSED       = 'processed',
+    FULL_PROCESSED  = 'full_processed',
+    CANCELED        = 'canceled',
 }
 
 export default interface TicketStatus {
@@ -14,5 +14,5 @@ export default interface TicketStatus {
   state: STATUS_TICKET;
   created_at: string | Date;
 
-  ticket: Ticket;
+  ticket?: Ticket;
 }

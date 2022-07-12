@@ -1,10 +1,10 @@
 import { EventDate } from "./";
 
 export enum EVENT_STATE {
-  STATUS_REGISTER = 'Registrado',
-  STATUS_PUBLISHED = 'Publicado',
-  STATUS_BLOCKED = 'Bloqueado',
-  STATUS_DELETED = 'Deletado',
+  STATUS_REGISTER   = 'Registrado',
+  STATUS_PUBLISHED  = 'Publicado',
+  STATUS_BLOCKED    = 'Bloqueado',
+  STATUS_DELETED    = 'Deletado',
 }
 
 export default interface Event {

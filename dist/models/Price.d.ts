@@ -1,7 +1,7 @@
 import { Event, EventDate, Sector } from "./";
 export declare enum TYPES {
-    regular = "regular",
-    map = "map"
+    REGULAR = "regular",
+    MAP = "map"
 }
 export default interface Price {
     id: number;
@@ -18,7 +18,7 @@ export default interface Price {
     type: TYPES;
     created_at: string | Date;
     updated_at: string | Date;
-    event: Event;
-    date: EventDate;
-    sector: Sector | null;
+    event?: Event;
+    date?: EventDate;
+    sector?: Sector | null;
 }

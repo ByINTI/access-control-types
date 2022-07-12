@@ -11,5 +11,5 @@ export default interface TicketStatus {
     device_name?: string;
     state: STATUS_TICKET;
     created_at: string | Date;
-    ticket: Ticket;
+    ticket?: Ticket;
 }

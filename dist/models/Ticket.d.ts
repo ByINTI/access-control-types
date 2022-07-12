@@ -1,4 +1,4 @@
-import { Price, Sector, EventDate, Event } from "./";
+import { Price, Sector, EventDate, Event, TicketStatus } from "./";
 export default interface Ticket {
     id: number;
     validator_code: string;
@@ -15,8 +15,10 @@ export default interface Ticket {
     max_usage: number;
     created_at: string | Date;
     updated_at: string | Date;
-    event: Event;
-    date: EventDate;
-    sector: Sector;
-    price: Price;
+    event?: Event;
+    date?: EventDate;
+    sector?: Sector;
+    price?: Price;
+    ticketStates?: TicketStatus[];
+    currentStatus?: TicketStatus;
 }
