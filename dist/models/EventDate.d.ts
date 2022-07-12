@@ -10,7 +10,7 @@ export default interface EventDate {
     created_at: string | Date;
     updated_at: string | Date;
     expected_audience?: number;
-    event?: Event[];
+    event?: Event;
     sectors?: Sector[];
     prices?: Price[];
 }
