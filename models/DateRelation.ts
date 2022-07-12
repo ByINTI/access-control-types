@@ -1,8 +1,8 @@
 import EventDate from "./EventDate";
 
 interface DateRelation {
-  primary_date_id: string;
-  secondary_date_id: string;
+  primary_date_id: number;
+  secondary_date_id: number;
   created_at: string | Date;
 
   primaryDate?: EventDate;
