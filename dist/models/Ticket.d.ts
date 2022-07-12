@@ -1,17 +1,22 @@
+import { Price, Sector, EventDate, Event } from "./";
 export default interface Ticket {
+    id: number;
     validator_code: string;
-    price_name: string;
-    ticket_id: string;
-    buyer_name: string;
-    buyer_cpf: string;
+    entity_code: string;
+    event_id: number;
+    date_id: number;
+    sector_id: number;
+    price_id: number;
     order_identifier: string;
-    is_half_price_ticket: boolean;
-    document_needed: boolean;
-    date_code: string;
-    establishment_gates: string;
-    seat: string;
-    ticket_number: string;
+    owner_name: string;
+    owner_document: string;
+    ticket_number: string | null;
+    seat: string | null;
     max_usage: number;
-    updated_at: string | Date;
     created_at: string | Date;
+    updated_at: string | Date;
+    event: Event;
+    date: EventDate;
+    sector: Sector;
+    price: Price;
 }

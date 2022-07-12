@@ -1,4 +1,4 @@
-import { EventDate, Gate } from "./";
+import { EventDate } from "./";
 export declare enum EVENT_STATE {
     STATUS_REGISTER = "Registrado",
     STATUS_PUBLISHED = "Publicado",
@@ -6,16 +6,15 @@ export declare enum EVENT_STATE {
     STATUS_DELETED = "Deletado"
 }
 export default interface Event {
-    event_code: string;
+    id: number;
+    external_id: string;
+    entity_code: string;
     name: string;
     description: string;
     image: string;
-    establishment_code: string;
-    status: string;
-    entity_code: string;
+    status: EVENT_STATE;
     created_at: string | Date;
     updated_at: string | Date;
     deleted_at: string | null | Date;
     eventDates?: EventDate[];
-    gates?: Gate[];
 }

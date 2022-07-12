@@ -1,22 +1,27 @@
+import { Event, EventDate, Sector } from "./";
+
 export enum TYPES {
   regular = 'regular',
   map = "map"
 }
 
-interface Price {
-  id: string;
-  date_code: string;
-  event_code: string;
+export default interface Price {
+  id: number;
   external_id: string;
-  sector_id: string | null;
+  entity_code: string;
+  event_id: number;
+  date_id: number;
+  sector_id: number | null;
   name: string;
   description: string | null;
   order: number;
   document_needed: boolean;
-  half_entry_law: boolean;
+  is_half_price: boolean;
   type: TYPES;
-  updated_at: string | Date;
   created_at: string | Date;
-}
+  updated_at: string | Date;
 
-export default Price;
+  event: Event;
+  date: EventDate;
+  sector: Sector | null;
+}

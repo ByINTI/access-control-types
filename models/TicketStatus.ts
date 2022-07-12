@@ -1,3 +1,5 @@
+import { Ticket } from "./";
+
 export enum STATUS_TICKET {
     EXPECTING =  'expecting',
     PROCESSED =  'processed',
@@ -7,8 +9,10 @@ export enum STATUS_TICKET {
 
 export default interface TicketStatus {
   id: number;
-  validator_code: string;
+  ticket_id: number;
   device_name?: string;
   state: STATUS_TICKET;
   created_at: string | Date;
+
+  ticket: Ticket;
 }
