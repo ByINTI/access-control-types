@@ -1,6 +1,7 @@
 import { Price, Sector, EventDate, Event, TicketStatus } from "./";
 export default interface Ticket {
     id: number;
+    external_id: string;
     validator_code: string;
     entity_code: string;
     event_id: number;
