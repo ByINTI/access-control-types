@@ -1,6 +1,7 @@
 import { Event, EventDate, Sector } from "./";
 
 export enum TYPES {
+  TYPELESS  = 'typeless',
   REGULAR   = 'regular',
   MAP       = "map"
 }
