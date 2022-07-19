@@ -1,7 +1,7 @@
 import { Ticket } from "./";
 
 export enum STATUS_TICKET {
-    EXPECTING       = 'expecting',
+    CREATED         = 'created',
     PROCESSED       = 'processed',
     FULL_PROCESSED  = 'full_processed',
     CANCELED        = 'canceled',

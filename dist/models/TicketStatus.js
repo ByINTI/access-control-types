@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.STATUS_TICKET = void 0;
 var STATUS_TICKET;
 (function (STATUS_TICKET) {
-    STATUS_TICKET["EXPECTING"] = "expecting";
+    STATUS_TICKET["CREATED"] = "created";
     STATUS_TICKET["PROCESSED"] = "processed";
     STATUS_TICKET["FULL_PROCESSED"] = "full_processed";
     STATUS_TICKET["CANCELED"] = "canceled";
