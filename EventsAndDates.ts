@@ -2,10 +2,10 @@ import { Event } from "./models";
 
 export interface Request {
     entityCode: string;
-    eventsIds?: number[];
-    datesIds?: number[];
-    sectorsIds?: number[];
-    pricesIds?: number[];
+    eventsIds?: string;
+    datesIds?: string;
+    sectorsIds?: string;
+    pricesIds?: string;
 }
 
 export type Response = Event[];
