@@ -20,6 +20,8 @@ export interface StatusTicketItem {
     buyerCpf: string;
     priceName: string;
     maxUsage: number;
+    ticketId: number;
+    priceId: number;
     currentUsage: number;
 }
 export interface Response {
