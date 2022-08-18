@@ -7,6 +7,11 @@ export enum STATUS_TICKET {
     CANCELED        = 'canceled',
 }
 
+export const TICKET_PROCESSED_STATES = [
+  STATUS_TICKET.FULL_PROCESSED,
+  STATUS_TICKET.PROCESSED,
+];
+
 export default interface TicketStatus {
   id: number;
   ticket_id: number;

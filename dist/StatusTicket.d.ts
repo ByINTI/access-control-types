@@ -19,6 +19,7 @@ export interface StatusTicketItem {
     buyerCpf: string;
     priceName: string;
     maxUsage: number;
+    currentUsage: number;
 }
 export interface Response {
     lastId: string;

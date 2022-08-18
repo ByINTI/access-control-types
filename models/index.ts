@@ -1,4 +1,4 @@
-export { default as TicketStatus, STATUS_TICKET } from "./TicketStatus";
+export { default as TicketStatus, STATUS_TICKET, TICKET_PROCESSED_STATES } from "./TicketStatus";
 export { default as Event, EVENT_STATE } from "./Event";
 export { default as EventDate } from "./EventDate";
 export { default as Ticket } from "./Ticket";
