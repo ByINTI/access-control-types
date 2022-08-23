@@ -2,7 +2,8 @@ export declare enum STATUS_TICKET {
     EXPECTING = "expecting",
     PROCESSED = "processed",
     FULL_PROCESSED = "full_processed",
-    CANCELED = "canceled"
+    CANCELED = "canceled",
+    UNPROCESSED = "unprocessed"
 }
 export default interface TicketStatus {
     id: number;
