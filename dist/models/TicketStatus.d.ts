@@ -3,7 +3,8 @@ export declare enum STATUS_TICKET {
     CREATED = "created",
     PROCESSED = "processed",
     FULL_PROCESSED = "full_processed",
-    CANCELED = "canceled"
+    CANCELED = "canceled",
+    UNPROCESSED = "unprocessed"
 }
 export declare const TICKET_PROCESSED_STATES: STATUS_TICKET[];
 export default interface TicketStatus {
