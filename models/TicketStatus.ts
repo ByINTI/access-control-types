@@ -6,6 +6,7 @@ export enum STATUS_TICKET {
     FULL_PROCESSED  = 'full_processed',
     CANCELED        = 'canceled',
     UNPROCESSED     = 'unprocessed',
+    UPDATED         = 'updated',
 }
 
 export const TICKET_PROCESSED_STATES = [

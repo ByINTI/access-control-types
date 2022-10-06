@@ -8,6 +8,7 @@ var STATUS_TICKET;
     STATUS_TICKET["FULL_PROCESSED"] = "full_processed";
     STATUS_TICKET["CANCELED"] = "canceled";
     STATUS_TICKET["UNPROCESSED"] = "unprocessed";
+    STATUS_TICKET["UPDATED"] = "updated";
 })(STATUS_TICKET = exports.STATUS_TICKET || (exports.STATUS_TICKET = {}));
 exports.TICKET_PROCESSED_STATES = [
     STATUS_TICKET.FULL_PROCESSED,
