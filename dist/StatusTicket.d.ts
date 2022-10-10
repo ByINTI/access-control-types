@@ -21,6 +21,7 @@ export interface StatusTicketItem {
     priceName: string;
     maxUsage: number;
     ticketId: number;
+    dateId: number;
     priceId: number;
     currentUsage: number;
 }
