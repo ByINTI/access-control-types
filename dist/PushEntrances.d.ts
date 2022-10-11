@@ -1,9 +1,10 @@
+export declare type EntranceChange = {
+    validatorCode: string;
+    timestamp?: string;
+    dateId?: number;
+};
 export interface Request {
-    change: {
-        validatorCode: string;
-        timestamp?: string;
-        dateId?: number;
-    }[];
+    change: EntranceChange[];
     deviceName?: string;
 }
 export declare type Response = {
