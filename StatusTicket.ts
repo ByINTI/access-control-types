@@ -26,6 +26,7 @@ export interface StatusTicketItem {
     dateId: number;
     priceId: number;
     currentUsage: number;
+    dateUsage: number;
 }
 
 export interface Response {
