@@ -1,13 +1,9 @@
-import { Price, Sector, EventDate, Event, TicketStatus } from "./";
+import { TicketStatus, TicketRelation } from "./";
 export default interface Ticket {
     id: number;
     external_id: string;
     validator_code: string;
     entity_code: string;
-    event_id: number;
-    date_id: number;
-    sector_id: number;
-    price_id: number;
     order_identifier: string;
     owner_name: string;
     owner_document: string;
@@ -16,10 +12,7 @@ export default interface Ticket {
     max_usage: number;
     created_at: string | Date;
     updated_at: string | Date;
-    event?: Event;
-    date?: EventDate;
-    sector?: Sector;
-    price?: Price;
+    relations?: TicketRelation[];
     ticketStates?: TicketStatus[];
     currentStatus?: TicketStatus;
 }
