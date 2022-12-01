@@ -17,7 +17,7 @@ export const TICKET_PROCESSED_STATES = [
 export default interface TicketStatus {
   id: number;
   ticket_id: number;
-  date_id: number;
+  date_id: number | null;
   device_name?: string;
   state: STATUS_TICKET;
   created_at: string | Date;
