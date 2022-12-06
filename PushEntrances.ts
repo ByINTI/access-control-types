@@ -1,15 +1,13 @@
+export interface PushEntranceItem {
+    validatorCode: string;
+    timestamp?: string;
+    dateId?: string | number;
+};
+
 export interface Request {
-    changes: {
-        validatorCode: string;
-        timestamp?: string;
-        dateId?: string | number;
-    }[]
+    changes: PushEntranceItem[]
 }
 
 export interface Response {
-    failedEntrances: {
-        validatorCode: string;
-        timestamp?: string;
-        dateId?: string | number;
-    }[]
+    failedEntrances: PushEntranceItem[]
 };
