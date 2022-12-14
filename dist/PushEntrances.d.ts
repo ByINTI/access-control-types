@@ -5,6 +5,7 @@ export interface PushEntranceItem {
 }
 export interface Request {
     changes: PushEntranceItem[];
+    deviceName: string;
 }
 export interface Response {
     failedEntrances: PushEntranceItem[];
