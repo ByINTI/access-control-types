@@ -1,7 +1,7 @@
 export interface PushEntranceItem {
     validatorCode: string;
     timestamp: string;
-    dateId: string | number;
+    dateId: string | number | null;
 }
 export interface Request {
     changes: PushEntranceItem[];
