@@ -1,9 +1,9 @@
 import { Event } from "./models";
 export interface OperationFilter {
-    eventsIds: string[];
-    datesIds: string[];
-    sectorsIds: string[];
-    pricesIds: string[];
+    eventsIds: number[];
+    datesIds: number[];
+    sectorsIds: number[];
+    pricesIds: number[];
 }
 export interface Request {
     entityCode: string;
