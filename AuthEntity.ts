@@ -16,4 +16,4 @@ export interface Request {
     timestamp: number;
 }
 
-export type Response =  IMSDevice & { entityCode: string, entityName: string };
+export type Response =  IMSDevice & { entityCode: string, entityName: string , authenticationToken: string };
