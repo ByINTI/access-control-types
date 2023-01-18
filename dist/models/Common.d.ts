@@ -1,4 +1,4 @@
 export declare enum Owner {
-    "INTI-BR" = 0,
-    "T4F" = 1
+    inti = "INTI-BR",
+    t4f = "T4F"
 }

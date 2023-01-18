@@ -1,4 +1,4 @@
 export enum Owner {
-    "INTI-BR",
-    "T4F"
+    inti = "INTI-BR",
+    t4f = "T4F"
 };
