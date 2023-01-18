@@ -1,4 +1,5 @@
 import { Price, Sector, EventDate, Event, TicketStatus } from "./";
+import { Owner } from "./Common";
 export default interface Ticket {
     id: number;
     external_id: string;
@@ -16,6 +17,7 @@ export default interface Ticket {
     max_usage: number;
     created_at: string | Date;
     updated_at: string | Date;
+    owner: Owner;
     event?: Event;
     date?: EventDate;
     sector?: Sector;

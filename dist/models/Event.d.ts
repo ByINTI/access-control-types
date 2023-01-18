@@ -1,4 +1,5 @@
 import { EventDate } from "./";
+import { Owner } from "./Common";
 export declare enum EVENT_STATE {
     STATUS_REGISTER = "Registrado",
     STATUS_PUBLISHED = "Publicado",
@@ -16,5 +17,6 @@ export default interface Event {
     created_at: string | Date;
     updated_at: string | Date;
     deleted_at: string | null | Date;
+    owner: Owner;
     eventDates?: EventDate[];
 }

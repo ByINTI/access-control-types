@@ -1,4 +1,5 @@
 import { Event, EventDate, Sector } from "./";
+import { Owner } from "./Common";
 export declare enum TYPES {
     TYPELESS = "typeless",
     REGULAR = "regular",
@@ -19,6 +20,7 @@ export default interface Price {
     type: TYPES;
     created_at: string | Date;
     updated_at: string | Date;
+    owner: Owner;
     event?: Event;
     date?: EventDate;
     sector?: Sector | null;

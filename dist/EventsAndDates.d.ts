@@ -6,4 +6,4 @@ export interface Request {
     sectorsIds?: string;
     pricesIds?: string;
 }
-export declare type Response = Event[];
+export type Response = Event[];

@@ -1,4 +1,5 @@
 import { Price, Sector, Event } from "./";
+import { Owner } from "./Common";
 
 export default interface EventDate {
   id: number;
@@ -10,6 +11,7 @@ export default interface EventDate {
   end_datetime: string | Date;
   created_at: string | Date;
   updated_at: string | Date;
+  owner: Owner;
   
   expected_audience?: number;
   event?: Event;

@@ -1,3 +1,4 @@
+import { Owner } from "./Common";
 import Event from "./Event";
 import EventDate from "./EventDate";
 import Price from "./Price";
@@ -11,6 +12,7 @@ export default interface Sector {
     order: number;
     updated_at: string | Date;
     created_at: string | Date;
+    owner: Owner;
     prices?: Price[];
     event?: Event;
     eventDate?: EventDate;
