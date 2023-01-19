@@ -1,5 +1,5 @@
 import { EventDate } from "./";
-import { Owner } from "./Common";
+import Owner from "../Owner";
 
 export enum EVENT_STATE {
   STATUS_REGISTER   = 'Registrado',

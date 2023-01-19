@@ -22,11 +22,16 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Headers = exports.EventsAndDates = exports.StatusTicket = exports.PushEntrances = exports.models = void 0;
+exports.Owner = exports.Headers = exports.EventsAndDates = exports.StatusTicket = exports.PushEntrances = exports.models = void 0;
 exports.models = __importStar(require("./models"));
 exports.PushEntrances = __importStar(require("./PushEntrances"));
 exports.StatusTicket = __importStar(require("./StatusTicket"));
 exports.EventsAndDates = __importStar(require("./EventsAndDates"));
 exports.Headers = __importStar(require("./Headers"));
+var Owner_1 = require("./Owner");
+Object.defineProperty(exports, "Owner", { enumerable: true, get: function () { return __importDefault(Owner_1).default; } });
 //# sourceMappingURL=index.js.map

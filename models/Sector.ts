@@ -1,4 +1,4 @@
-import { Owner } from "./Common";
+import Owner from "../Owner";
 import Event from "./Event";
 import EventDate from "./EventDate";
 import Price from "./Price";
