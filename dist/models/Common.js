@@ -7,4 +7,5 @@ var Owner;
     Owner["t4f"] = "T4F";
 })(Owner = exports.Owner || (exports.Owner = {}));
 ;
+exports.default = { Owner };
 //# sourceMappingURL=Common.js.map
