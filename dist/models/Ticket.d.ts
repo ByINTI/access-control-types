@@ -1,5 +1,5 @@
 import { TicketStatus, TicketRelation } from "./";
-import Owner from "../Owner";
+import { Owner } from "./Common";
 export default interface Ticket {
     id: number;
     external_id: string;

@@ -1,5 +1,5 @@
 import { Event, EventDate, Sector } from "./";
-import Owner from "../Owner";
+import { Owner } from "./Common";
 export declare enum TYPES {
     TYPELESS = "typeless",
     REGULAR = "regular",

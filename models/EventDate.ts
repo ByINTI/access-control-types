@@ -1,5 +1,5 @@
 import { Price, Sector, Event } from "./";
-import Owner from "../Owner";
+import { Owner } from "./Common";
 
 export default interface EventDate {
   id: number;
