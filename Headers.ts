@@ -7,6 +7,7 @@ export enum Auth {
 
 export enum General {
     EntityCode = "X-Inti-Entity-Code",
+    Owner = "X-Inti-Owner",
 };
 
 export default {

@@ -5,7 +5,8 @@ export declare enum Auth {
     Authentication = "X-Inti-Authentication"
 }
 export declare enum General {
-    EntityCode = "X-Inti-Entity-Code"
+    EntityCode = "X-Inti-Entity-Code",
+    Owner = "X-Inti-Owner"
 }
 declare const _default: {
     Auth: typeof Auth;

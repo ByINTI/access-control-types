@@ -12,6 +12,7 @@ var Auth;
 var General;
 (function (General) {
     General["EntityCode"] = "X-Inti-Entity-Code";
+    General["Owner"] = "X-Inti-Owner";
 })(General = exports.General || (exports.General = {}));
 ;
 exports.default = {
