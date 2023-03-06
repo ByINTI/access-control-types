@@ -1,3 +1,5 @@
+import { Owner } from "./models";
+
 export interface IMSDevice {
     name: string;
     uuid: string;
@@ -16,4 +18,9 @@ export interface Request {
     timestamp: number;
 }
 
-export type Response =  IMSDevice & { entityCode: string, entityName: string , authenticationToken: string };
+export type Response =  IMSDevice & {
+    entityCode: string,
+    entityName: string,
+    authenticationToken: string,
+    owner: Owner,
+};
