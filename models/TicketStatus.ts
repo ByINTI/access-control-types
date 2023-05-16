@@ -1,4 +1,4 @@
-import { Ticket } from "./";
+import { Ticket, EventDate } from "./";
 
 export enum STATUS_TICKET {
     CREATED         = 'created',
@@ -17,9 +17,11 @@ export const TICKET_PROCESSED_STATES = [
 export default interface TicketStatus {
   id: number;
   ticket_id: number;
+  date_id: number | null;
   device_name?: string;
   state: STATUS_TICKET;
   created_at: string | Date;
 
   ticket?: Ticket;
+  date?: EventDate;
 }
