@@ -5,5 +5,6 @@ export { default as Ticket } from "./Ticket";
 export { default as DateRelation } from "./DateRelation";
 export { default as Price, TYPES as PRICE_TYPES } from "./Price";
 export { default as Sector } from "./Sector";
+export { default as TicketRelation } from "./TicketRelation";
 export { default as Device } from "./Device";
 export { Owner } from "./Common";
