@@ -8,6 +8,7 @@ export interface OperationFilter {
 export interface Request {
     entityCode: string;
     currentOperationFilter?: OperationFilter;
+    currentOperationFilterJSON?: string;
     showRelatedData?: boolean;
     eventsIds?: string;
     datesIds?: string;
