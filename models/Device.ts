@@ -10,6 +10,5 @@ export default interface Device {
   created_at: string | Date;
   updated_at: string | Date | null;
   deleted_at: string | Date | null;
-  last_source_timestamp: string | Date | null;
   owner: Owner;
 }
