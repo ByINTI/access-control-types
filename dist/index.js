@@ -23,11 +23,12 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Owner = exports.Headers = exports.EventsAndDates = exports.StatusTicket = exports.PushEntrances = exports.models = void 0;
+exports.Owner = exports.Headers = exports.DeviceUpdate = exports.EventsAndDates = exports.StatusTicket = exports.PushEntrances = exports.models = void 0;
 exports.models = __importStar(require("./models"));
 exports.PushEntrances = __importStar(require("./PushEntrances"));
 exports.StatusTicket = __importStar(require("./StatusTicket"));
 exports.EventsAndDates = __importStar(require("./EventsAndDates"));
+exports.DeviceUpdate = __importStar(require("./DeviceUpdate"));
 exports.Headers = __importStar(require("./Headers"));
 var models_1 = require("./models");
 Object.defineProperty(exports, "Owner", { enumerable: true, get: function () { return models_1.Owner; } });
