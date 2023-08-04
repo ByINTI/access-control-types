@@ -11,6 +11,8 @@ export default interface Ticket {
   owner_document: string;
   ticket_number: string | null;
   seat: string | null;
+  available_dates: number;
+  single_date_usage_limit: number;
   max_usage: number;
   created_at: string | Date;
   updated_at: string | Date;

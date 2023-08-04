@@ -22,6 +22,8 @@ export interface StatusTicketItem {
     maxUsage: number;
     ticketId: number;
     priceId: number;
+    singleDateUsageLimit: number;
+    availableDates: number;
     currentUsage: number;
 }
 export interface Response {
