@@ -25,6 +25,7 @@ export interface StatusTicketItem {
     singleDateUsageLimit: number;
     availableDates: number;
     currentUsage: number;
+    currentDateUsage: number;
 }
 export interface Response {
     lastId: string;
