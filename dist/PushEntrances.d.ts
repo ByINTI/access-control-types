@@ -1,4 +1,5 @@
 export interface PushEntranceItem {
+    uuid: string;
     validatorCode: string;
     timestamp: string;
     dateId: string | number | null;

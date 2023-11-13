@@ -5,4 +5,4 @@ export interface Request {
     type: string;
     name: string;
 }
-export type Response = IMSDevice;
+export declare type Response = IMSDevice;
