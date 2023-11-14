@@ -14,6 +14,7 @@ export default interface TicketStatus {
     date_id: number | null;
     device_id: number | null;
     state: STATUS_TICKET;
+    read_uuid: string;
     created_at: string | Date;
     ticket?: Ticket;
     date?: EventDate;
