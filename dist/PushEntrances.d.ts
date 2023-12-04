@@ -6,6 +6,8 @@ export interface PushEntranceItem {
 }
 export interface Request {
     changes: PushEntranceItem[];
+    generalLogs: any[];
+    deviceUuid: string;
     deviceName: string;
 }
 export interface Response {
