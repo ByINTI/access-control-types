@@ -24,10 +24,14 @@ export interface StatusTicketItem {
     maxUsage: number;
     ticketId: number;
     priceId: number;
+    dateId: number;
+    sectorId?: number;
+    eventId: number;
     currentUsage: number;
     availableDates: number;
     singleDateUsageLimit: number;
     currentDateUsage: number;
+    sectorName?: string;
 }
 
 export interface Response {
