@@ -6,6 +6,7 @@ export interface OperationFilter {
     pricesIds: number[];
 }
 export interface Request {
+    filterVersion?: number;
     entityCode: string;
     currentOperationFilter?: OperationFilter;
     currentOperationFilterJSON?: string;
