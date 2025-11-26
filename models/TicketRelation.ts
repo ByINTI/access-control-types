@@ -12,6 +12,7 @@ interface TicketRelation {
   sector_id: number | null;
   price_id: number;
   created_at: string | Date;
+  reads_done: number;
 
   ticket?: Ticket;
   event?: Event;
