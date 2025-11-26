@@ -9,6 +9,19 @@
   "scripts": {
     "build": "npx tsc"
   },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./models": {
+      "import": "./dist/models/index.js",
+      "require": "./dist/models/index.js",
+      "types": "./dist/models/index.d.ts"
+    },
+    "./package.json": "./package.json"
+  },
   "dependencies": {
     "typescript": "~4.0.0"
   }
